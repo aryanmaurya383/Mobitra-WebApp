@@ -1,3 +1,7 @@
+* {
+    overflow: hidden;
+}
+
 .navbar {
     display: flex;
     background: #FE5722;
@@ -5,6 +9,7 @@
     align-items: center;
     color: white;
     box-shadow: -20px 4px 28px 5px rgba(0, 0, 0, 0.25);
+    width: 200vw;
 }
 
 .navbar__logo,

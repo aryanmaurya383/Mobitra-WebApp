@@ -1,0 +1,47 @@
+body {
+    background: #F5F5F5;
+}
+
+.analytics {
+    margin: 1.3rem 1.3rem 0 1.3rem;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.25);
+}
+
+.analytics__leftBody {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.analytics__leftBody__header {
+    display: flex;
+
+}
+
+.analytics__leftBody__header__content {
+
+    height: 100%;
+    color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #000000;
+    padding: 5px 12px;
+    font-size: 1rem;
+}
+
+.flex-right {
+    display: flex;
+    justify-content: end;
+}
+
+.analytics__rightBody {
+    flex: 0.3;
+    margin-top: 50px;
+    line-height: 36px;
+}
