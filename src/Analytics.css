@@ -35,10 +35,16 @@ body {
     font-size: 1rem;
 }
 
-.flex-right {
-    display: flex;
-    justify-content: end;
+.left-margin {
+    margin-left: 10vw;
 }
+
+.analytics__leftBody__graph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .analytics__rightBody {
     flex: 0.3;
