@@ -3,6 +3,8 @@ import './Analytics.css';
 import { VehiclesInfoHeading, VehiclesInfoContent } from "./VehiclesInfo";
 import Chart from 'react-google-charts';
 
+
+
 const LineData = [
     ['x', 'dogs', 'cats'],
     [0, 0, 0],
@@ -15,17 +17,11 @@ const LineData = [
     [7, 27, 19],
 ]
 const LineChartOptions = {
-    hAxis: {
-        title: 'Time',
-    },
-    vAxis: {
-        title: 'Popularity',
-    },
+
     series: {
         1: { curveType: 'function' },
     },
-    "width": "900px",
-    "height": "900px"
+    legend: "none"
 }
 
 function Analytics() {
@@ -41,16 +37,17 @@ function Analytics() {
                         1 Jan 2022- 2 Feb 2022
                     </div>
                     <select className='analytics__leftBody__header__content left-margin' name="cars" id="cars">
-                        <option value="volvo">Distance</option>
-                        <option value="saab">Fuel</option>
-                        <option value="mercedes">Time</option>
+                        <option value="distance">Distance</option>
+                        <option value="fuel">Fuel</option>
+                        <option value="time">Time</option>
                     </select>
 
                 </div>
                 <div className="analytics__leftBody__graph">
                     <Chart
-                        width={'1000px'}
-                        height={'500px'}
+                        className='graph__chart'
+                        width={'86vw'}
+                        height={'45vw'}
                         chartType="LineChart"
                         loader={<div>Loading Chart</div>}
                         data={LineData}

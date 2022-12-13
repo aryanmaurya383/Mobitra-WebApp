@@ -33,18 +33,26 @@ body {
     border: 1px solid #000000;
     padding: 5px 12px;
     font-size: 1rem;
+
 }
 
 .left-margin {
-    margin-left: 10vw;
+    margin-left: 13vw;
+    width: 170px;
+
 }
 
 .analytics__leftBody__graph {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
+.graph__chart {
+    position: relative;
+    right: 11vw;
+    bottom: 5vw;
+
+}
 
 .analytics__rightBody {
     flex: 0.3;
