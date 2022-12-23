@@ -1,0 +1,9 @@
+.carinfo{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 3px;
+    padding: 10px;
+}

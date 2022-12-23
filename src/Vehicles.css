@@ -1,0 +1,85 @@
+.all{
+    background-color: white;
+    color: #030c04c9;
+    border: 2px solid #030c04c9; 
+    width: 80px;
+    height: 25px;
+    margin: 15px 4px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.running{
+    background-color: white;
+    color: #00a713c9;
+    border: 2px solid #00a713c9; 
+    width: 80px;
+    height: 25px;
+    margin: 15px 4px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.idle{
+    
+    background-color: white;
+    color: #E8AA31;
+    border: 2px solid #E8AA31; 
+    width: 80px;
+    height: 25px;
+    margin: 15px 4px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.parked{
+    background-color: white;
+    color: #FE0000;
+    border: 2px solid #FE0000; 
+    width: 80px;
+    height: 25px;
+    margin: 15px 4px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.unknown{
+    background-color: white;
+    color: #030c0467;
+    border: 2px solid #030c0467; 
+    width: 80px;
+    height: 25px;
+    margin: 15px 4px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.carstate{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cars{
+    height: 430px;
+    background-color: rgba(254, 87, 34, 0.12) ;
+    padding: 10px;
+    flex: 1
+}
+
+.map{
+    height: 430px;
+    flex: 5
+}
