@@ -23,23 +23,27 @@ body {
 
 .analytics__leftBody__header {
     display: flex;
-
+    width: 100%;
 }
 
 .analytics__leftBody__header__content {
-
+    display: flex;
     height: 100%;
     color: rgba(0, 0, 0, 0.6);
     border: 1px solid #000000;
-    padding: 5px 12px;
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+    padding-top: 3px;
+    padding-bottom: 4px;
     font-size: 1rem;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .left-margin {
-    margin-left: 13vw;
+    margin-left: 10vw;
     width: 170px;
-
+    margin-right: 2vw;
 }
 
 .analytics__leftBody__graph {

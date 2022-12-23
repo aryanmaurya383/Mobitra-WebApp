@@ -67,7 +67,7 @@ function Analytics() {
                     <VehiclesInfoContent />
                     <VehiclesInfoContent />
                     <VehiclesInfoContent />
-                    <VehiclesInfoContent />
+
                 </div>
             </div>
 
