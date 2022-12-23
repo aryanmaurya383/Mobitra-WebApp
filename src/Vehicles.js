@@ -4,7 +4,7 @@ import Cars from './Cars.js'
 
 function Vehicles() {
     return (
-        <div>
+        <div className='vehicles-page'>
             <div className='carstate'>
                 <button className='all'>All</button>
                 <button className='running'>Running</button>
@@ -21,11 +21,13 @@ function Vehicles() {
                     <Cars />
 
                 </div>
-                <div className='map'><img src="https://www.sumerugroups.com/frontend/images/map1.png"></img></div>
+                <div className='vehicles-map'>
+                    <img src="https://www.sumerugroups.com/frontend/images/map1.png"></img>
+                </div>
             </div>
-            
+
         </div>
-        
+
     )
 }
 
